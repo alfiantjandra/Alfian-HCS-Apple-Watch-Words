@@ -57,8 +57,8 @@ for clasD in classes:
     for section in sections:
         lmao = section.get_text().split()
         total_words += len(lmao)
-#        print(lmao)
+        print(lmao)
 #        print(len(lmao))
 
-print(total_words)
+print("The total number of words in the apple website is "+str(total_words))
         
