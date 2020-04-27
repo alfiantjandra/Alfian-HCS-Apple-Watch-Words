@@ -40,6 +40,9 @@ from bs4 import BeautifulSoup
 #print(period)
 #print(short_desc)
 #print(temp)
+""" Apple's website has a lot of pictures and not that many words. I wanted to find out how many words are there in the apple watch series 5 page."""
+
+
 total_words = 0
 page = requests.get('https://www.apple.com/apple-watch-series-5/')
 soup = BeautifulSoup(page.content, 'html.parser')
